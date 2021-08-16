@@ -15,12 +15,12 @@ class wx(object):
         self.SESSIONDATA = SESSIONDATA
 
         self.headers = {
-		    'Host':' ',
-			'Connection':' ',
-			'X-Tag':' ',
-			'Content-Length':' ',
-			'content-type':' ',
-			'Accept-Encoding':' ',
+            'Host':' ',
+	    'Connection':' ',
+	    'X-Tag':' ',
+	    'Content-Length':' ',
+	    'content-type':' ',
+	    'Accept-Encoding':' ',
             'user-agent':' ',
             'Referer':' ',
             'cookie':' '
