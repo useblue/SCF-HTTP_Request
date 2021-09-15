@@ -1,12 +1,8 @@
 # -*- coding: utf8 -*-
 import os
-
-from wx import wx
+import time
+import send
 
 def main_handler(event, context):
     
-    SESSIONDATA = os.environ.get('SESSIONDATA')
-
-    wx(SESSIONDATA).run()
-
     return 'DONE'
